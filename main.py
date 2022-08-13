@@ -22,5 +22,5 @@ robo.open_chrome_in_the_start()
 
 # Executa o robô para cada número de item na lista.
 for itemNumber in item_list:
+    print(f'Extraindo roteiro do produto: {itemNumber}...\n')
     robo.save_file(itemNumber)
-
